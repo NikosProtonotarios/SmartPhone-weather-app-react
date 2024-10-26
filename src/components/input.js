@@ -4,10 +4,10 @@ function Input() {
     return (
         <div className="inputContainer">
           <div className="inputLittleContainer">
-            <img></img>
+            <i class="fa-solid fa-magnifying-glass"/>
             <input className="input"></input>
-            <img></img>
-            <img></img>
+            <i class="fa-solid fa-microphone"/>
+            <i class="fa-solid fa-camera"/>
           </div>
         </div>
     );
