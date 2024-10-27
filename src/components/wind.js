@@ -17,4 +17,4 @@ function Wind() {
     );
 }
 
-export default Wind
+export default Wind;

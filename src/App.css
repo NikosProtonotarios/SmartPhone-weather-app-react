@@ -134,6 +134,14 @@
   color: rgb(134, 134, 134);
 }
 
+.fa-magnifying-glass:hover {
+  color: rgb(189, 189, 189);
+}
+
+.fa-location-dot {
+  color: rgb(197, 0, 0);
+}
+
 .windContainer {
   display: flex;
   justify-content: space-around;
