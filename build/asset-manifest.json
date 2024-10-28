@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/static/css/main.27f37ed0.css",
+    "main.js": "/static/js/main.7fe460a4.js",
+    "static/media/istockphoto-868697268-612x612.jpg": "/static/media/istockphoto-868697268-612x612.26f0e5972194dde133a1.jpg",
+    "static/media/stationery-headphones-cup-coffee-wooden-table_23-2148128427.avif": "/static/media/stationery-headphones-cup-coffee-wooden-table_23-2148128427.31ef211ae629ee0d678a.avif",
+    "static/media/istockphoto-1007768414-612x612.jpg": "/static/media/istockphoto-1007768414-612x612.1c460a5d07474be2a28f.jpg",
+    "static/media/camera.mp3": "/static/media/camera.063fbf39f552362e4e7d.mp3",
+    "static/media/cat.webp": "/static/media/cat.bff8017f7a0118a630ca.webp",
+    "static/media/ring.mp3": "/static/media/ring.e459f42f1223f37c6cb3.mp3",
+    "static/media/message.mp3": "/static/media/message.81102234c75f44acb56a.mp3",
+    "static/media/snow.svg": "/static/media/snow.f973c513e7ca01b72039e94e0b5468e4.svg",
+    "static/media/blue-wind-16544.svg": "/static/media/blue-wind-16544.44eb9c4d7f15b23a216bfd3e5527538e.svg",
+    "static/media/clouds.svg": "/static/media/clouds.2e92f9eb6fae744a5aba7dad1755c58b.svg",
+    "static/media/rain.svg": "/static/media/rain.5b9e26007c618ccc9a23b44b5d0d50f5.svg",
+    "static/media/storm.svg": "/static/media/storm.e5c1f1e6dd9c0531aca9cd7e8008912e.svg",
+    "index.html": "/index.html",
+    "static/media/2682807_drop_high_humidity_percentage_precipitation_icon.svg": "/static/media/2682807_drop_high_humidity_percentage_precipitation_icon.231817059447e4c96662ec1e259a5ba7.svg",
+    "static/media/sun.svg": "/static/media/sun.9abac4b0500e309b346737f755e40939.svg",
+    "main.27f37ed0.css.map": "/static/css/main.27f37ed0.css.map",
+    "main.7fe460a4.js.map": "/static/js/main.7fe460a4.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.27f37ed0.css",
+    "static/js/main.7fe460a4.js"
+  ]
+}
