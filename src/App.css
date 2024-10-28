@@ -140,6 +140,7 @@
 
 .fa-location-dot {
   color: rgb(197, 0, 0);
+  margin-right: 10px;
 }
 
 .windContainer {
@@ -150,6 +151,7 @@
 }
 
 .wind {
+  height: 90px;
   text-align: center;
   padding: 20px;
   border-radius: 19px;
@@ -159,6 +161,7 @@
 }
 
 .humid {
+  height: 90px;
   text-align: center;
   padding: 20px;
   border-radius: 19px;
@@ -179,16 +182,54 @@
   background-color: green;
   padding: 15px;
   border-radius: 19px;
+  cursor: pointer;
+}
+
+.phone1:active {
+  box-shadow: inset 5px 5px 10px rgba(0, 0, 0, 0.3);
 }
 
 .message1 {
   background-color: rgb(133, 133, 255);
   padding: 15px;
   border-radius: 19px;
+  cursor: pointer;
+}
+
+.message1:active {
+  box-shadow: inset 5px 5px 10px rgba(0, 0, 0, 0.3);
 }
 
 .camera1 {
   background-color: rgb(211, 0, 0);
   padding: 15px;
   border-radius: 19px;
+  cursor: pointer;
+}
+
+.camera1:active {
+  box-shadow: inset 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.light {
+  position: absolute; /* or relative, depending on your layout */
+  width: 20px; /* initial size */
+  height: 20px; /* initial size */
+  background-color: rgba(255, 255, 255, 0.7); /* start with a more transparent white */
+  border-radius: 50%; /* keep it circular */
+  animation: pulse 1s ease-out forwards; /* forward animation without returning */
+  bottom: 571px;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+    opacity: 1;
+    box-shadow: 0 0 5px 5px rgba(255, 255, 255, 0.7); /* initial soft glow */
+  }
+  100% {
+    transform: scale(4); /* spread out the light */
+    opacity: 0; /* fade out completely */
+    box-shadow: 0 0 100px 50px rgba(255, 255, 255, 0.05); /* extremely transparent edges */
+  }
 }

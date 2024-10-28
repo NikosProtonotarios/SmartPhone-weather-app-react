@@ -21,8 +21,9 @@ function App() {
                 return response.json();
             })
             .then(jsonData => {
-                setWeatherData(jsonData);
-                setCityName(city);
+              const temperatureC = Math.floor(jsonData.main.temp - 273);
+              setWeatherData({ ...jsonData, temperature: temperatureC });
+                setCityName(city.charAt(0).toUpperCase() + city.slice(1).toLowerCase());
                 setError("");
             })
             .catch(error => {
@@ -39,7 +40,7 @@ function App() {
           <Time />
           <WeatherDisplay weatherData={weatherData} cityName={cityName} error={error} />
           <Input onCitySubmit={fetchWeatherData} />
-          <Wind />
+          <Wind weatherData={weatherData}/>
           <Footer />
       </div>
     </div>
