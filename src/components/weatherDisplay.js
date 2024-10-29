@@ -4,7 +4,6 @@ import SnowIcon from "../images/snow.svg";
 import CloudIcon from "../images/clouds.svg";
 import StormIcon from "../images/storm.svg";
 import RainIcon from "../images/rain.svg";
-import CatIcon from "../images/cat.webp";
 
 function WeatherDisplay({weatherData, cityName, error}) {
     let weatherIcon = SunnyIcon;

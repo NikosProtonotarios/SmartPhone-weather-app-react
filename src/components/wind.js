@@ -9,11 +9,11 @@ function Wind({weatherData}) {
     return (
         <div className="windContainer">
             <div className="wind">
-                <img src={WindIcon} style={{height: '40px'}} alt=""/>
+                <img src={WindIcon} style={{height: '40px'}} alt="wind icon"/>
                 <p style={{textShadow: '0px 0px 4px rgba(0, 0, 0, 0.6)', fontSize: '40px', margin: '0'}}>{wind}</p>
             </div>
             <div className="humid">
-                <img src={Humidity} style={{height: '40px'}}/>
+                <img src={Humidity} style={{height: '40px'}}  alt="humidity icon"/>
                 <p style={{textShadow: '0px 0px 4px rgba(0, 0, 0, 0.6)', fontSize: '40px', margin: '0'}}>{humidityOne}</p>
             </div>
         </div>
